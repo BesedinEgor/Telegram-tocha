@@ -1,15 +1,15 @@
 @use "sass:math";
 // если вы хотите использовать sass-переменные - удалите root
-// перевод в em, rem
-@function rem($px) {
-  $result: math.div($px, 16) + rem;
-  @return $result;
-}
+// // перевод в em, rem
+// @function rem($px) {
+//   $result: math.div($px, 16) + rem;
+//   @return $result;
+// }
 
-@function em($px) {
-  $result: math.div($px, 16) + em;
-  @return $result;
-}
+// @function em($px) {
+//   $result: math.div($px, 16) + em;
+//   @return $result;
+// }
 
 :root {
   // base
