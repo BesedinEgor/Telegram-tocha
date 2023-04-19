@@ -33,6 +33,11 @@ const plumber = require('gulp-plumber');
 const path = require('path');
 const zip = require('gulp-zip');
 const rootFolder = path.basename(path.resolve());
+const gulp = require("gulp");
+const deploy = require("gulp-gh-pages");
+gulp.task("deploy", function () {
+  return gulp.src("./app/**/*").pipe(deploy());
+});
 
 // paths
 const srcFolder = './src';
