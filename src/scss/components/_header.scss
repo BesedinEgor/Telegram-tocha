@@ -1,0 +1,23 @@
+.burger {
+  @include burger;
+
+  & .line-first {
+    background-color: #685ed6;
+  }
+
+  &.burger__line.line-secondary {
+    background-color: #33afe1;
+  }
+
+  &.burger__line.line-last {
+    background-color: #18e1f7;
+  }
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  margin-bottom: 4rem;
+}
