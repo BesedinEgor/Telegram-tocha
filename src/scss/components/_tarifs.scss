@@ -1,0 +1,25 @@
+.tarifs {
+  margin-bottom: 5.4rem;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+    color: var(--dark-color);
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--dark-color);
+    max-width: 21.4rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+}
