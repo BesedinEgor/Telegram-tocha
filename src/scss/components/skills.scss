@@ -1,0 +1,65 @@
+.skills {
+  margin-bottom: 5.4rem;
+  padding-bottom: 53rem;
+  background-image: url("../../img/skills-bg.png");
+  background-repeat: no-repeat;
+  background-size: 30rem 48.7rem;
+  background-position: center bottom;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  &__item {
+    padding-left: 6rem;
+    &.list1,
+    &.list2,
+    &.list3,
+    &.list4 {
+      background-image: url("../../img/svg/telegram.svg");
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 4.2rem 4.2rem;
+    }
+
+    &.list2 {
+      background-image: url("../../img/svg/graphic.svg");
+    }
+
+    &.list3 {
+      background-image: url("../../img/svg/assistens.svg");
+    }
+
+    &.list4 {
+      background-image: url("../../img/svg/castomisation.svg");
+    }
+  }
+
+  &__item-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 600;
+    color: var(--dark-color);
+  }
+
+  &__item-description {
+    margin: 0;
+    padding: 0;
+    max-width: 27.1rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
