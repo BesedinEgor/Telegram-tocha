@@ -1,7 +1,7 @@
 .skills {
   margin-bottom: 5.4rem;
   padding-bottom: 53rem;
-  background-image: url("../../img/skills-bg.png");
+  background-image: url("../img/skills-bg.png");
   background-repeat: no-repeat;
   background-size: 30rem 48.7rem;
   background-position: center bottom;
@@ -26,22 +26,22 @@
     &.list2,
     &.list3,
     &.list4 {
-      background-image: url("../../img/svg/telegram.svg");
+      background-image: url("../img/svg/telegram.svg");
       background-repeat: no-repeat;
       background-position: left center;
       background-size: 4.2rem 4.2rem;
     }
 
     &.list2 {
-      background-image: url("../../img/svg/graphic.svg");
+      background-image: url("../img/svg/graphic.svg");
     }
 
     &.list3 {
-      background-image: url("../../img/svg/assistens.svg");
+      background-image: url("../img/svg/assistens.svg");
     }
 
     &.list4 {
-      background-image: url("../../img/svg/castomisation.svg");
+      background-image: url("../img/svg/castomisation.svg");
     }
   }
 
