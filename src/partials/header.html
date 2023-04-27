@@ -1,6 +1,6 @@
 <header class="header">
-  <div class="container">
-    <div class="header__menu">
+  <div class="container header__container">
+    <a class="logo" href="#">
       <img
         class="logo"
         src="img/logo.png"
@@ -8,24 +8,26 @@
         width="95"
         height="30"
       />
-      <div class="header__burger">
-        <button
-          class="burger"
-          aria-label="Открыть меню"
-          aria-expanded="false"
-          data-burger
-        >
-          <span class="burger__line line-first"></span>
-          <span class="burger__line line-secondary"></span>
-          <span class="burger__line line-last"></span>
-        </button>
-        <div class="header__link" data-menu>
-          <a class="header__login header__btn--light btn" href="#">Вход</a>
-          <a class="header__registr header__btn--secondary btn" href="#"
-            >Регистрация</a
-          >
-        </div>
-      </div>
-    </div>
+    </a>
+    <button
+      class="burger"
+      aria-label="Открыть меню"
+      aria-expanded="false"
+      data-burger
+    >
+      <span class="burger__line line-first"></span>
+      <span class="burger__line line-secondary"></span>
+      <span class="burger__line line-last"></span>
+    </button>
+    <nav class="header__link" data-menu>
+      <a
+        class="header__login header__btn--light header__btn--burger btn"
+        href="#"
+        >Вход</a
+      >
+      <a class="header__registr header__btn--secondary btn" href="#"
+        >Регистрация</a
+      >
+    </nav>
   </div>
 </header>
