@@ -1,3 +1,7 @@
+.header {
+  background-color: #f2f7ff;
+}
+
 .burger {
   @include burger;
   z-index: 10;

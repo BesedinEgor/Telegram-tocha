@@ -1,9 +1,10 @@
 .intro {
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../img/intro-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center bottom;
+  background-position: center 35rem;
+  background-color: #f2f7ff;
 
   &__content {
     max-width: 33rem;
